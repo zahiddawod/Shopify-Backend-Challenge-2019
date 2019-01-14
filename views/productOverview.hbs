@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="product-image">
+            <img src="{{product.imagePath}}">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="product-details-wrapper">
+            <div class="product-title title"><h1>{{product.title}}</h1></div>
+            <div class="product-description">{{product.description}}</div>
+            <div class="product-price">${{product.price}} CAD</div>
+            <div class="product-description"><i class="fa fa-cube"></i> {{product.inventory_count}} In-Stock</div>
+			{{#if product.inventory_count}}
+            <div class="product-button">
+                <a href="/add-to-bag/{{product._id}}" class="btn btn-primary full-width pad10"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
+			</div>
+			{{else}}
+			<div class="product-button">
+                <a class="btn btn-primary-na full-width pad10"> OUT OF STOCK</a>
+			</div>
+			{{/if}}
+        </div>
+    </div>
+</div>
