@@ -39,6 +39,9 @@ So in total you should have 3 instances of your console/terminal running (in thi
 Testing:
 --------
 
+Replace the string values for client_id and secret_key in the api.js file with your own paypal dev account.
+If you don't have one create an account here: https://developer.paypal.com/
+
 - Run the application
 In the application folder execute:
 
