@@ -25,8 +25,8 @@ var checkout = require('./routes/checkout');
 
 paypal.configure({
 	'mode': 'sandbox',
-	'client_id': 'AUFL2TrWtJbMzKRsV4BfOfWql8xxUblMeZ1fTWYOtCMJyiyoNIEPcn82TttB4_ium5Eze7kHSSB_k5QT',
-	'client_secret': 'EFJOO9TaK5kWYgJae7lpFYD3140NyAx9rLp52RLRdhdHOhPltrNipQ4DnFJzkFLlTFwErA4gImLv6YAU'
+	'client_id': 'place_your_client_id_key_here',
+	'client_secret': 'place_your_secret_key_here'
 });
 
 // Moment Configuration -- For dates
